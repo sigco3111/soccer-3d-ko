@@ -1,0 +1,19 @@
+name: 번역 커버리지 점검
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 커버리지 계산
+        run: python3 tools/check_coverage.py
+      - name: 결과 커밋
+        run: |
+          git config user.name sigco3111
+          git config user.email sigco3111@users.noreply.github.com
+          git add _analysis/coverage.txt
+          git commit -m "분석: 번역 커버리지 결과 갱신"
+          git push
