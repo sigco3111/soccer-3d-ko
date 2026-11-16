@@ -1,0 +1,19 @@
+name: HTML 요소 문자열 추출
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 요소 문자열 추출 실행
+        run: python3 tools/extract_elements.py
+      - name: 결과 커밋
+        run: |
+          git config user.name sigco3111
+          git config user.email sigco3111@users.noreply.github.com
+          git add _analysis
+          git commit -m "분석: HTML 요소 단위 문자열 추출 목록 생성"
+          git push
