@@ -1,0 +1,300 @@
+Pocket Soccer 3D
+YOU
+1H
+CPU
+II
+PASS
+RUN
+SHOOT
+REPLAY
+TAP TO SKIP
+A CLAUDE FABLE 5.2 TEST · SOUND BY ELEVENLABS
+POCKET
+SOCCER
+3D
+TAP TO START
+A Claude Fable 5.2 test build · sound and artwork by ElevenLabs
+Scoreboard
+HALL OF FAME
+CONTINUE
+Scores are kept on this device.
+WHO IS PLAYING?
+New player
+OK
+Player
+KICK OFF
+Install app
+Tactics
+High scores
+How to play
+Level
+Match length
+2 min
+4 min
+6 min
+Options
+Fouls
+Offside
+Shadows
+HOW TO PLAY
+Controls
+Left thumb
+Drag anywhere on the left side to run. Keyboard: arrows or WASD.
+Tap for a low drive; hold to load power and lift. Aim with the stick; shots near the goal are pulled inside the posts. Keyboard: Space.
+Plays the ball to the team-mate inside the white ring, which follows the direction you aim. Keyboard: Shift.
+TACKLE
+Without the ball, the red button is a sliding tackle. A miss leaves you on the ground for a moment.
+SWITCH
+Without the ball, the blue button moves control to the next-nearest player. The yellow ring marks who you control.
+Hold the green button to sprint. Sprinting drains the
+bar (top left); tired players are slower. Keyboard: C.
+SOUND
+The
+Sound on / off
+button at the top right is available on every screen, including the first. Your choice is remembered.
+Rules
+Seven a side, two halves; the teams
+change ends
+at half time. The ball going out gives a
+or
+goal kick
+; when it is yours, you get a moment unchallenged to play it. Every goal is followed by a
+slow-motion replay
+; tap to skip.
+Fouls:
+a sliding tackle from behind, or a mistimed one, gives a free kick with a defensive wall, or a
+inside the box. The referee shows a
+yellow card
+for the worse ones; two yellows, or a foul from behind in the box, is a
+red card
+and that side plays a man short.
+Offside:
+a pass to a team-mate beyond the second-last defender is whistled when he receives it. Fouls and offside can be switched off under Options.
+Added time
+is played at the end of each half. A match level at full time goes to a
+penalty shoot-out
+Stamina and injuries:
+stamina recovers when a player slows down and partly at half time. A fouled player, or one sprinting on empty, can be
+; he is replaced at the stoppage while substitutes remain (three a side), otherwise he plays on slower. You can also substitute your most tired player from the pause screen.
+Choose formation, mentality and pressing from the menu or the pause screen. Opponents use different formations and push forward when behind. Match statistics are shown at full time.
+Levels
+Eight opponents of rising quality.
+Win
+a level to unlock the next. Any unlocked level can be replayed for a better score.
+Score
+Each match earns points: 100 per goal, 500 for a win plus 150 per goal of margin, 150 for a draw plus 250 for winning the shoot-out; all multiplied by the level. The best results go on the Hall of Fame.
+Players and saving
+Each player name has its own progress. Progress saves automatically.
+Pause → Save & quit
+stores the match in progress, including the score, clock, statistics, stamina, injuries, substitutions, cards and send-offs; resume it from the menu. Saves live in this browser on this device.
+Install
+Open the game at its web address and it can be installed like an app and played offline.
+Android / Chrome:
+use the
+button on the menu, or the browser menu → Install app.
+iPhone / iPad:
+in Safari tap Share →
+Add to Home Screen
+Views
+Hold the device sideways for a broadcast view; upright for a view from behind your team.
+GOT IT
+TACTICS
+Formation · defence – midfield – attack
+Mentality
+Defensive
+Balanced
+Attacking
+Pressing
+Low
+Normal
+High
+Mentality moves your whole team up or back. High pressing sends two players to the ball; low pressing holds shape.
+DONE
+PAUSED
+RESUME
+Substitute
+Save & quit
+Abandon match
+Full time
+YOU WIN
+NEXT LEVEL
+Play again
+Menu
+SOUND ON
+Could not load
+The 3D library did not load. Check the connection and reload.
+const SND_DATA={/*__SND__*/};
+const BG_DATA="/*__BG__*/";
+width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no
+yes
+Soccer 3D
+Pause
+Your name
+Sound on or off
+/*__BG__*/
+use strict
+on
+err
+Dockside Juniors
+DOC
+Millbrook Town
+MIL
+Redcliff Rovers
+RED
+Ironvale United
+IRO
+Northgate City
+NOR
+Sable Athletic
+SAB
+Meridian FC
+MER
+Titans XI
+TIT
+pocketSoccer3d.v2
+2d
+POCKET SOCCER 3D
+FABLE 5.2
+GOAL!
+ARENA ONE
+PLAY ON
+ELEVENLABS SOUND
+FAIR PLAY
+YXZ
+t1
+ooh
+userO
+t0
+LEVEL
+<small>v
+</small>
+pens)
+Penalties
+New personal best for this level
+unlocked:
+New high score — top of the Hall of Fame
+Hall of Fame: #
+CHAMPIONS!
+WIN ON PENALTIES
+LOST ON PENALTIES
+YOU LOSE
+pts
+Possession
+Shots
+On target
+Corners
+Offsides
+Yellow cards
+Red cards
+st
+GOAL<small>
+SCORE</small>
+msg
+s0
+s1
+halfL
+SOCCER 3D
+A CLAUDE FABLE 5.2 TEST
+FULL TIME
+1ST HALF
+2ND HALF
+fk
+OFFSIDE · FREE KICK
+joyZone
+joyBase
+joyKnob
+translate(
+btnA
+btnC
+btnB
+INPUT
+pow
+pen
+FOUL · PENALTY
+FOUL · FREE KICK
+on r
+on y
+cardT
+SECOND YELLOW · RED CARD
+RED CARD
+YELLOW CARD
+No.
+gk
+THROW-IN
+CORNER
+GOAL KICK
+SECOND HALF<small>ENDS CHANGED</small>
+MIN ADDED TIME
+ADDED
+HALF TIME<small>
+lblA
+lblB
+SUBSTITUTION ·
+off, No.
+· INJURY: No.
+INJURY ·
+goes off at the next stoppage
+plays on hurt
+staBar
+staL
+· HURT
+· subs
+PENALTIES ·
+gap
+PENALTIES
+aim
+SCORES!
+SAVED!
+MISSED!
+introH
+br
+introT
+boardBody
+No scores yet. Win a match to put the first name on the board.
+<thead><tr><th>#</th><th>Player</th><th>Level</th><th>Result</th><th>Points</th></tr></thead>
+tr
+me
+td
+boardOk
+userList
+opt
+sel
+userForm
+uName
+uStats
+played ·
+won ·
+No matches played yet
+lv
+em
+Locked
+Best
+Not yet won
+resumeSaved
+Resume saved match · L
+optLen
+optForm
+optMent
+optPress
+bTact
+bTact2
+tactOk
+bSub
+Substitute most tired player (
+left)
+No substitutes left
+optTog
+helpOk
+bHelp
+bHelp2
+bScores
+overScores
+bUser
+saveQuit
+bPause
+bMute
+SOUND OFF
+off
+bInstall
+serviceWorker
+sw.js
